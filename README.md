@@ -39,15 +39,17 @@ The Data: The microarray data from was obtained from Gene Expression Omnibus onl
 ### RESULTS 
 The number of genes for each sample with a differential expression greater than 1.5 fold can be seen in Figure 1. The blastocyst stage embryo has the fewest differentially expressed genes (&lt75) when compared to embryonic stem cells. This is to be expected as embryonic stem cells are derived from the inner cell mass of the blastocyst. The two-cell stage embryo showed the most differentially expressed genes (>400). This peak corresponds to gene activation event that occurs in early development. Consistent, with low transcription levels in the pre-blastocyst embryo, the majority of this differential expression was a down regulation in the early embryonic states as compared to the embryonic stem cells.
 
-
+<center>
 ![figure1](img/linePlot.png)
+
 *Figure 1: Differential Expression in Early Embryos*
+</center>
 
 The GO terms enriched in each of the samples along with the number of genes associated with that term are shown in Figure 2. The majority of differentially expressed genes belonged to GO terms in a proportion that was not unexpected (p-value less than 0.01). However, there were a few GO terms that were enriched to significant amounts. The most prevalent of these GO terms was development, as to be expected in a developing embryo. This finding suggests that the GO enrichment found in this experiment is biological relevant. Other significant GO terms logically found in developing embryos included fertilization and reproductions. There were several GO terms enriched in our samples that were unexpected; including antigen processing and presentation (two cell stage), bone remodeling (four and six cell stages) and ossification (four and six cell stages). It is possible that these enrichments were an artifact of converting the probes to gene names (one third were lost), but it may be that these genes perform unknown functions during embryonic development. The most interesting finding was the enrichment of genes involved in microtubule polymerization and movement in the oocyte, two-cell stage and six-cell stage embryos. Given the importance of microtubules in the proper separation of chromosomes during mitosis, this suggests a possible cause of the high aneuploidy rates seen in embryos.
 
-
-![figure2](img/barChart.png)
-
+<center>
+![figure2](img/stackedBar.png)
+</center>
 
 ### DISCUSSION
 The aim of this study was to begin to elucidate the cause of the high failure rate in the pre-implantation human embryo. By comparing transcriptomes of early stages embryos with human embryonic stem cells—which do not exhibit such high aneuploidy or failure—we were able to isolate possible gene candidates. GO Term enrichment analysis revealed a number of significant gene categories. Many of these were consistent with the samples, including terms for development, fertilization and reproductions. Some of the terms do not seem consistent with the samples, such as antigen presentation/processing and bone remolding. The discovery of differential expression of these categories may imply that the genes have additional unknown functions in embryonic development. Further investigation into their function will be necessary to understand why they demonstrate differential expression. 
